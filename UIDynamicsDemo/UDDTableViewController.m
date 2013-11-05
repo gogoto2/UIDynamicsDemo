@@ -104,6 +104,7 @@ static NSString *kUDDTableViewCellIdentifier = @"UDDTableViewCell";
             break;
         case 5:
             demoController = [[UDDDemoControllerSpringAnimation alloc] init];
+            break;
         default:
             NSLog(@"Invalid index path %i", indexPath.row);
     }
